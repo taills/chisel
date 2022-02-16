@@ -21,7 +21,7 @@ import (
 var help = `
   Usage: chisel [command] [--help]
 
-  Version: ` + chshare.BuildVersion + ` (` + runtime.Version() + `)
+  Version: ` + chshare.BuildVersion + `/` + chshare.ProtocolVersion + ` (` + runtime.Version() + `) 
 
   Commands:
     server - runs chisel in server mode
